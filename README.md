@@ -1,8 +1,8 @@
 # jquery-slide
-jQuery Image Slider and SVG animations
+jQuery Image Slider and SVG animations.
 
 ### tools for project
-jQuery, velocity.js
+jQuery, velocity.js, webpack, sass
 
 ### Installation
 
