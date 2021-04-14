@@ -1,0 +1,54 @@
+.outer-slider{
+    display: block;
+
+    .prev {
+        position: relative;
+        margin-right: -45px;
+        z-index: 100;
+    }
+
+    .next {
+        position: relative;
+        margin-left: -45px;
+        z-index: 100;
+    }
+
+    .inner-slider{
+        height: 800px;
+        width: 1000px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        border: 5px solid $pink-border;
+
+        .active {
+            display: inline-block;
+        }
+    
+        & > div {
+            display: none;
+            height: 820px;
+            width: 1020px;
+            margin: 0;
+            overflow: auto;
+        }
+    } 
+
+    @include breakpint(applcationdonwork){
+    display: none;
+    }
+}
+
+#small-screen {
+    display: none;
+
+    @include breakpint(applcationdonwork){
+        display: block;
+        background-color: gray;
+        color: white;
+        padding: 0 20px;
+        min-height: 800px;
+        text-align: center;
+        line-height: 700px;
+        }
+}

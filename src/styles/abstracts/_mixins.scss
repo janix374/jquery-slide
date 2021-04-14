@@ -1,0 +1,8 @@
+ // Abstracts  holds Sass tools, helper files, variables, functions, mixins and other config files. These files are meant to be just helpers which don’t output any CSS when compiled.
+ 
+ // Sass Mixins
+ @mixin breakpint($point) {
+    @if $point == applcationdonwork {
+        @media(max-width: 1150px) { @content; }
+    } 
+}

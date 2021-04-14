@@ -1,0 +1,28 @@
+.item3 {
+
+    #sea-container {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background-color: #a6c9d6;
+        position: relative;
+
+        #sea-flower1, #sea-flower2 {
+            transform-origin: 80% 90%; 
+        }
+
+        .sea-diving-club {
+            top: 300px;
+            left: 250px;
+            position: absolute;
+            width: 530px;
+            height: 200px;
+            background-color: yellow;
+            opacity: 0;
+            background-position: center;
+            background-size: auto;
+            background-repeat: no-repeat;
+            background: url('../images/dclub.jpg');
+        }
+    }
+}

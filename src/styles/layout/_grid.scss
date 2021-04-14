@@ -1,0 +1,37 @@
+// Layout: contains all styles involved with the layout of your project. Such as styles for your header, footer, navigation and the grid system.
+
+// Grid system
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.main-p {
+  grid-area: main-p;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'main main main main main'
+    'footer footer footer footer footer';
+  // background-color: brown;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.container > div {
+  text-align: center;
+  font-size: 30px;
+}
