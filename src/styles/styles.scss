@@ -1,0 +1,28 @@
+// Main Scss File
+
+@import './abstracts/functions';
+@import './abstracts/fonts';
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+@import './base/global';
+@import './base/reset';
+@import './base/typography';
+@import './base//margin-padding';
+
+@import './components/buttons';
+@import './components/carousel';
+@import './components/slider';
+
+@import './layout/footer';
+@import './layout/forms';
+@import './layout/grid';
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/sidebar';
+
+@import './vendors/bootstrap';
+@import './vendors/jquery-ui';
+
+@import './pages/mainpage.scss';
+

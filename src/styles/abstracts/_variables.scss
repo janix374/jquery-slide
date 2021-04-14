@@ -1,0 +1,25 @@
+// Abstracts holds Sass tools, helper files, variables, functions, mixins and other config files. These files are meant to be just helpers which don’t output any CSS when compiled.
+
+// Sass Variables
+
+// Fonts
+$sansSerif: 'Open Sans';
+
+// Font Sizing
+
+
+// Colors
+$bg: #fff;
+$text: #382b22;
+$light-pink: #E3F0FF;
+$pink: #6A87C1;
+$dark-pink: #6A87C1;
+$pink-border: #34568B;
+$pink-shadow: #fff;
+
+// Spacing
+$pad: 1em;
+
+// Breakpoints
+$smallBreakpoint: 600px;
+$largeBreakpoint: 1080px;

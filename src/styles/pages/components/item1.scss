@@ -1,0 +1,68 @@
+.item1 {
+
+    #background-for-bike {
+        position: absolute;
+        width: 6266px;
+        height: 100%;
+        background: url('../images/road1.jpg');
+        background-position: left;
+        background-repeat: repeat-x;
+    }
+
+    #bikeride {
+        position: absolute;
+    }
+
+    #bikeride-front-wheel, #bikeride-back-wheel{
+       animation: wheel 3s linear infinite;
+       transform-origin: center;
+       transform-box: fill-box;
+    }
+
+
+    #bikeride-body {
+        animation: body 1s ease-in-out infinite alternate;
+        transform-origin: bottom;
+    }
+
+    #bikeride-hat {
+        animation: hat 1s ease-in-out infinite alternate;
+        transform-origin: bottom;
+        transform-box: fill-box;
+    }
+
+    @keyframes wheel {
+        from {
+            transform: rotateZ(0deg);
+        }
+        to {
+            transform: rotateZ(360deg);
+        }
+    }
+
+    @keyframes body {
+        from {
+            transform:rotateX(0deg);
+        }
+        to {
+            transform:rotateX(10deg);
+        }
+    }
+
+    @keyframes hat {
+        from {
+            transform:rotateX(0deg);
+        }
+        to {
+            transform:rotateX(20deg);
+        }
+    }
+
+    @keyframes road {
+        100%{
+            transform: translateX(-3133px);
+        }
+    }
+
+    
+}
